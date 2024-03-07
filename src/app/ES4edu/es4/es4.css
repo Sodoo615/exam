@@ -1,0 +1,312 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.edu  {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100vw;
+  height: 70vh;
+  background: url("https://www.alleducationschools.com/wp-content/uploads/2021/07/education-programs-two-year-750x350-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+.edu::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.profile {
+  
+  margin-right: 100px;
+}
+.slick-dots {
+    top:  610px;
+  }
+.logo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 450px;
+  height: 500px;
+  background-color: rgb(46, 90, 212);
+}
+.logo img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.es {
+  width: 250px;
+  font-size: 30px;
+  font-family: sans-serif;
+  text-align: center;
+  color: rgb(236, 234, 234);
+}
+
+.main-taniltsuulga {
+  display: flex;
+  gap: 80px;
+  padding-left: 200px;
+}
+.tani {
+  color: gray;
+}
+.tanilts {
+  font-size: 38px;
+  font-family: sans-serif;
+  font-weight: 500;
+  padding: 40px;
+  color: #000;
+}
+.tanilts1 {
+  display: flex;
+  gap: 80px;
+  padding: 20px;
+  margin-left: 30px;
+}
+.tanilts2 {
+  display: flex;
+  margin-left: 30px;
+  gap: 80px;
+  padding: 20px;
+}
+.tanilts3 {
+  display: flex;
+ gap: 10px;
+ padding: 20px;
+  margin-left: 30px;
+}
+.erhem {
+  width: 180px;
+}
+.t1 {
+  width: 400px;
+}
+.t2 {
+  width: 400px;
+}
+.t3 {
+  width: 400px;
+}
+.zorilt {
+  display: flex;
+  gap: 18px;
+  margin-top: 10px;
+  text-align: center;
+  margin-left: 40px;
+}
+.zorilt p:hover {
+  color: rgb(2, 199, 199);
+  text-decoration:underline dashed;
+}
+.health {
+  width: 80px;
+}
+.hamt {
+  width: 80px;
+}
+.erdem {
+  width: 80px;
+}
+.togs {
+  width: 80px;
+}
+@media (max-width: 1300px) {
+  .edu img {
+    width: 100vw;
+    height: 400px;
+  }
+  .taniltsuulga {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .main-taniltsuulga {
+    display: flex;
+    gap: 20px;
+    padding-left: 0px;
+  }
+  .logo {
+    margin-left: 30px;
+    width: 450px;
+    height: 400px;
+    background-color: rgb(96, 96, 219);
+  }
+  .tanilts {
+    margin-left: 30px;
+  }
+  .tanilts1 {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+  }
+  .tanilts2 {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+  }
+  .tanilts3 {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+  }
+  .zorilt {
+    text-align: center;
+    display: flex;
+    
+    margin-bottom: 20px;
+  }
+  .health {
+    width: 80px;
+  }
+  .hamt {
+    width: 80px;
+  }
+  .erdem {
+    width: 80px;
+  }
+  .togs {
+    width: 80px;
+  }
+  .slick-dots {
+    top: 380px;
+  }
+}
+@media (max-width: 1000px) {
+  .edu img {
+    width: 100vw;
+    height: 400px;
+  }
+  .taniltsuulga {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .main-taniltsuulga {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-left: 0px;
+  }
+  .logo {
+    margin-left: 30px;
+    width: 450px;
+    height: 400px;
+    background-color: rgb(96, 96, 219);
+  }
+  .tanilts {
+    margin-left: 30px;
+  }
+  .tanilts1 {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+  }
+  .tanilts2 {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+  }
+  .tanilts3 {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+  }
+  .zorilt {
+    text-align: start;
+    display: flex;
+    padding-left: 10px;
+    gap: 8px;
+    margin-bottom: 20px;
+    flex-direction: column;
+  }
+  .health {
+    width: 150px;
+  }
+  .hamt {
+    width: 150px;
+  }
+  .erdem {
+    width: 150px;
+  }
+  .togs {
+    width: 150px;
+  }
+}
+@media (max-width: 600px) {
+  .edu  {
+    width: 100vw;
+    height: 400px;
+  }
+  .taniltsuulga {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0px;
+    align-items: center;
+  }
+  .main-taniltsuulga {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .logo {
+    margin-left: 30px;
+    width: 450px;
+    height: 400px;
+    background-color: rgb(96, 96, 219);
+  }
+  .tanilts {
+    margin-left: 30px;
+  }
+  .tanilts1 {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+  }
+  .tanilts2 {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+  }
+  .tanilts3 {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+  }
+  .zorilt {
+    text-align: start;
+    display: flex;
+    padding-left: 10px;
+    gap: 8px;
+    margin-bottom: 20px;
+    flex-direction: column;
+  }
+  .health {
+    width: 150px;
+  }
+  .hamt {
+    width: 150px;
+  }
+  .erdem {
+    width: 150px;
+  }
+  .togs {
+    width: 150px;
+  }
+  .slick-dots {
+    top: 380px;
+  }
+}

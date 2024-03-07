@@ -1,0 +1,257 @@
+.travels-main {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  background-color: #ededed;
+  justify-content: center;
+  color: #000;
+  border-bottom-right-radius: 10px;
+  padding: 8px;
+  width: 100px;
+  height: 40px;
+}
+.category {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 8px;
+}
+.category ul {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 80px;
+}
+.category ul li {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  gap: 80px;
+  font-family: sans-serif;
+  font-weight: 500;
+   text-transform:uppercase;
+  list-style: none;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  text-align: center;
+  padding-bottom: 3px;
+}
+.nav-pro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.createtExam {
+  display: none;
+}
+.requir {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+.requir button {
+  border: none;
+  width: 80px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff;
+}
+.lds {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.loader {
+  width: 38px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background:
+    radial-gradient(farthest-side, #000000 94%, #0000) top/4px 4px no-repeat,
+    conic-gradient(#0000 30%, #000000);
+  -webkit-mask: radial-gradient(farthest-side, #0000 calc(100% - 5px), #000 0);
+  animation: l13 1s infinite linear;
+}
+
+@keyframes l13 {
+  100% {
+    transform: rotate(1turn);
+  }
+}
+.name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+}
+.name h4 {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.name li {
+  font-size: 20px;
+}
+.edu44 img {
+  display: none;
+}
+
+
+:root {
+  --button-background: dodgerblue;
+
+  --dropdown-highlight: dodgerblue;
+  --dropdown-width: 280px;
+  --dropdown-background: #ededed;
+  --dropdown-color: black;
+}
+
+a.button:active {
+  filter: brightness(75%);
+}
+
+/* Dropdown styles */
+.dropdown {
+  position: relative;
+  padding: 0;
+  margin-right: 1em;
+
+  border: none;
+}
+
+.dropdown summary {
+  list-style: none;
+  list-style-type: none;
+}
+
+.dropdown > summary::-webkit-details-marker {
+  display: none;
+}
+
+.dropdown summary:focus {
+  outline: none;
+}
+
+.dropdown summary:focus a.button {
+  border: 2px solid white;
+}
+
+.dropdown summary:focus {
+  outline: none;
+}
+
+.dropdown ul {
+  position: absolute;
+  margin: 20px 0 0 0;
+  padding: 20px 0;
+  width: var(--dropdown-width);
+  left: 50%;
+  margin-left: calc((var(--dropdown-width) / 2) * -1);
+  box-sizing: border-box;
+  z-index: 2;
+
+  background: var(--dropdown-background);
+  border-radius: 6px;
+  list-style: none;
+}
+
+.dropdown ul li {
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown ul li a:link,
+.dropdown ul li a:visited {
+  display: inline-block;
+  padding: 10px 0.8rem;
+  width: 100%;
+  box-sizing: border-box;
+
+  color: var(--dropdown-color);
+  text-decoration: none;
+}
+.dropdown ul::before {
+  content: " ";
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: -10px;
+  left: 50%;
+  margin-left: -10px;
+  border-style: solid;
+  border-width: 0 10px 10px 10px;
+  border-color: transparent transparent var(--dropdown-background) transparent;
+}
+
+.dropdown > summary::before {
+  display: none;
+}
+
+.dropdown[open] > summary::before {
+  content: " ";
+  display: block;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+}
+.dropdowns {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-contents {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-contents p {
+  color: black;
+  cursor: pointer;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-contents p:hover {background-color: #ddd;}
+
+.dropdowns:hover .dropdown-contents {display: block;}
+@media (max-width: 1100px) {
+  .createtExam {
+    display: block;
+    padding: 15px;
+  }
+  .edu44 {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .edu44 img {
+    display: block;
+    width: 100px;
+    height: 100px;
+  }
+  
+  #menu button {
+    width: 100px;
+    background-color: #623aa2;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: start;
+    border: none;
+  }
+}

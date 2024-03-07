@@ -1,0 +1,105 @@
+.etseg-login {
+  display: flex;
+}
+.etseg-login img {
+  width: 70vw;
+  height: 100vh;
+}
+.main-login-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #eeeeee;
+}
+.login-card {
+  padding: 90px;
+  width: 474px;
+  background-color: #f7f7f7;
+  height: 450px;
+  border-radius: 2px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.login-card h1 {
+  font-weight: 100;
+  text-align: center;
+  font-size: 2.3em;
+}
+.login-card input[type="text"],
+input[type="password"] {
+  height: 44px;
+  font-size: 16px;
+  width: 300px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  /* border-radius: 2px; */
+  padding: 0 8px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.login-card input[type="text"]:hover,
+input[type="password"]:hover {
+  border: 1px solid #b9b9b9;
+  border-top: 1px solid #a0a0a0;
+  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.login {
+  text-align: center;
+  font-size: 14px;
+  font-family: "Arial", sans-serif;
+  font-weight: 700;
+  height: 36px;
+  padding: 0 8px;
+}
+
+.login-button {
+  border: 1px solid #3079ed;
+  border: 0px;
+  color: #fff;
+  margin-top: 15px;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  height: 30px;
+  background-color: #4d90fe;
+}
+
+.login-button:hover {
+  border: 0px;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+  background-color: #357ae8;
+}
+
+
+.login-help {
+  margin-top: 15px;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 15px;
+}
+@media (max-width: 1300px) {
+  .etseg-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .etseg-login img {
+    height: 50vh;
+  }
+  .main-login-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 52vh;
+  }
+}

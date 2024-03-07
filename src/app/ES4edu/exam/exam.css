@@ -1,0 +1,78 @@
+.bigs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  padding: 20px;
+  background: #eeeeee;
+}
+
+.hariu {
+  text-align: center;
+}
+
+.ques {
+  text-align: center;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+.answr {
+  background-color: #fff;
+  border-radius: 8px;
+  width: 600px;
+  padding: 20px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type="submit"],
+button[type="button"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover,
+button[type="button"]:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.correctButton {
+  background-color: #eeeeee;
+  color: #000000;
+  font-size: 20px;
+  border: none;
+  width: 300px;
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.correctButton:hover {
+  background-color: #d2d1d1;
+}

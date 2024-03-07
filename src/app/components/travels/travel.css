@@ -1,0 +1,149 @@
+.main-travel {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgb(197, 29, 253) 50%, rgba(252,176,69,1) 100%); */
+  
+}
+.travel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+.recent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    padding: 68px;
+}
+.recent h1 {
+    font-family: sans-serif;
+    font-weight: 100;
+    color: #0d0d0d;
+    font-weight: bold;
+    border-bottom: 2px solid #000;
+    padding-bottom: 10px;
+}
+.cards {
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card {
+   
+    margin: 20px;
+    width: 400px;
+    height: 460px;
+    background-color:#f0eeee;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease;
+   
+}
+.card:hover {
+    box-shadow: 8px 8px 10px #ccc;
+
+}
+.card h4 {
+    font-weight: 500;
+}
+.card img {
+    width: 400px;
+    height: 310px;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+    
+}
+.not {
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+}
+.tarif {
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace;
+}
+.loc {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 6px;
+}
+.icon-tabler-map-pin {
+    background-color: aqua;
+    width: 50px;
+    height: 50px;
+    border-radius: 40%;
+}
+.tailbar {
+  
+    padding-left: 20px;
+}
+.stars {
+    display: flex;
+    align-items: center;
+    padding-left: 45px;
+}
+.day {
+    display: flex;
+    align-items: center;
+ justify-content: space-between;
+    padding: 20px;
+    font-size: 15px;
+    color: rgb(18, 47, 94);
+    font-weight: bold;
+}
+.loc h4 {
+    color: rgb(18, 47, 94);
+   font-weight: bolder;
+}
+.calendar {
+    display: flex;
+    align-items: center;
+}
+@media (max-width:600px) {
+    .main-travel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .travel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .card {
+        width: 300px;
+        height: 400px;
+
+    }
+    .card img {
+        width: 300px;
+        height: 230px;
+    }
+    .recent {
+        display: flex;
+        flex-direction: column;
+    }
+    .recent h1 {
+        font-size: 22px;
+    }
+    .search {
+        width: 250px;
+    }
+    .icon-tabler-plane-departure {
+        width: 40px;
+        height: 40px;
+    }
+}

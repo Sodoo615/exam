@@ -1,0 +1,285 @@
+.mongolabout {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100vw;
+  height: 70vh;
+  background: url("https://www.thetimes.co.uk/travel/wp-content/uploads/sites/6/2023/03/HERO-A-herd-grazing-during-a-mild-summer-in-the-sometimes-extreme-climate-of-the-Tsaast-Uul-valley-in-remote-western-Mongolia-alamy-FB9FBW.jpg?w=2200&h=880&crop=1");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.mongolabout::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.mongolabout h2 {
+  position: relative;
+  z-index: 1;
+  padding: 100px;
+  color: #fff;
+  letter-spacing: 8px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #e1e1e1, #fff, #725c5c);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 800%;
+  }
+}
+.tuhai {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.falgs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.falgs img {
+  width: 80px;
+}
+.flag {
+  display: flex;
+  justify-content: center;
+}
+.flag img {
+  width: 200px;
+}
+.aboutMongol {
+  display: flex;
+  justify-content: center;
+  gap: 180px;
+  height: 23vh;
+  width: 100vw;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+}
+.aboutMongol h3 {
+  display: flex;
+  width: 130px;
+  color: #725c5c;
+  font-size: 40px;
+}
+.medeelel p {
+  width: 700px;
+  height: 50px;
+  padding: 20px;
+  font-size: 20px;
+  text-align: start;
+  color: #625d5d;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+.mongol {
+  color: #725c5c;
+  font-size: 40px;
+}
+.mountain {
+  overflow-x: scroll;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #725c5c;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.mountain p {
+  padding-top: 20px;
+  text-transform: lowercase;
+  font-size: 15px;
+  width: 700px;
+  text-align: center;
+}
+.mountain h3 {
+  border-bottom: 1px solid rgb(119, 90, 90);
+
+  color: #725c5c;
+  font-weight: 200;
+}
+.mountain span {
+  font-weight: 400;
+  color: rgb(195, 165, 120);
+}
+.mountainType {
+  display: flex;
+  overflow-x: scroll;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin: 30px;
+  justify-content: center;
+}
+.mountainType p {
+  position: relative;
+  z-index: 2;
+  font-size: 20px;
+  padding: 20px;
+  font-weight: 100;
+  color: #fff;
+  width: 100vw;
+  font-family: "Courier New", Courier, monospace;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.type1 {
+  display: flex;
+  position: relative;
+  align-items: flex-end;
+  justify-content: flex-start;
+  background: url("https://www.toursmongolia.com/uploads/Delger%20khaan1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+}
+.type2 {
+  display: flex;
+  position: relative;
+  align-items: flex-end;
+  justify-content: flex-start;
+  background: url("https://www.discovermongolia.mn/uploads/2-Kharkhiraa-turgen-top-10-places-bayar-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+}
+.type3 {
+  display: flex;
+  position: relative;
+  align-items: flex-end;
+  justify-content: flex-start;
+  background: url("https://www.discovermongolia.mn/uploads/4-Khermen-tsav-top-10-places-bayar.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+}
+.type4 {
+  display: flex;
+  position: relative;
+  align-items: flex-end;
+  justify-content: flex-start;
+  background: url("https://www.discovermongolia.mn/uploads/5-Tsambagarav-top-10-places-bayar.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+}
+.type5 {
+  display: flex;
+  position: relative;
+  align-items: flex-end;
+  justify-content: flex-start;
+  background: url("https://www.discovermongolia.mn/uploads/10-lake-khuvsgul-top-10-places-bayar-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+}
+.type6 {
+  display: flex;
+  position: relative;
+  align-items: flex-end;
+  justify-content: flex-start;
+  background: url("https://www.discovermongolia.mn/uploads/7-Khetsuu-khad-Hyargas-lake-top-10-places-bayar.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+}
+.mainHistory {
+  position: relative;
+  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 75vh;
+  background: url("https://www.cam.ac.uk/sites/www.cam.ac.uk/files/news/news/gettyimages-160626124-genghis-khan.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.History {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.mainHistory::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.History p {
+  position: relative;
+  color: linear;
+  width: 500px;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 3px;
+}
+.oldFlag {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  align-items: center;
+}
+.khaan {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+ 
+  align-items: center;
+}
+.khaan p {
+  margin-top: 20px;
+  text-align: start;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.flagOld img {
+  position: relative;
+  width: 200px;
+  height: 100px;
+
+}
+.flagOld {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.oldFlag p {
+  width: 500px;
+  padding: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  text-align: start;
+}
+.khaan img{
+  position: relative;
+  width: 300px;
+  padding-top: 30px;
+  height: 200px;
+}

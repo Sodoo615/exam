@@ -1,0 +1,15 @@
+.scroll-up-button {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    bottom: 20px;
+    right: 20px;
+    background-color:rgb(76, 116, 198);
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+}

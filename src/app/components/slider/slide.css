@@ -1,0 +1,30 @@
+
+
+.slick-prev {
+  margin-left: 100px;
+}
+
+
+.slick-dots {
+  top:  710px;
+}
+.sli {
+  position: relative;
+}
+.img{
+ 
+  width: 100%;
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (max-width:600px) {
+  .img {
+    width: 100%;
+    height: 300px;
+  }
+  .slick-dots {
+    top:  310px;
+  }
+}

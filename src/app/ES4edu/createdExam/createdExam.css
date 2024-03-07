@@ -1,0 +1,71 @@
+/* 
+.gre {
+    display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: #e78012;
+  height: 100vh;
+}
+.lessons {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.lessons p {
+    font-size: 30px;
+    font-weight: 200;
+    padding: 30px;
+}
+.crequizs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.images {
+  background-color: #eeeeee;
+  box-shadow: 10px 10px 20px #ccc;
+  width: 300px;
+  border-radius: 10px;
+  height: 300px;
+  text-align: center;
+}
+.images img {
+  width: 250px;
+  height: 150px;
+}
+.mans {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Style for lesson title */
+/* .title {
+  font-size: 1px;
+
+}
+
+.plyButton  {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  width: 150px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.plyButton:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+.back {
+    border: none;
+    background-color: #ccc;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+} */ 
